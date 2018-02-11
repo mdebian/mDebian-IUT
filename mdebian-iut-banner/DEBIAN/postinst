@@ -1,0 +1,9 @@
+#! /bin/sh
+
+# Halt on error
+set -e
+
+# Configure system banners
+[ -L /etc/issue ] && ln -sfv /etc/issue.mdebian-iut /etc/issue
+dpkg-divert --add --package mdebian-iut-banner --rename --divert /etc/issue.net.backup /etc/issue.net
+ln -sfv /etc/issue.net.mdebian-iut /etc/issue.net

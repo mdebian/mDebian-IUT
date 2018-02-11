@@ -1,0 +1,4 @@
+# NTP client configuration for systemd
+
+[Time]
+NTP=192.168.5.5 192.168.5.15

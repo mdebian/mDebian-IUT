@@ -1,0 +1,7 @@
+#! /bin/sh
+
+# Halt on error
+set -e
+
+# Restore the previous configuration
+[ -L /etc/apt/sources.list ] && ln -sfv /etc/apt/sources.list.mdebian /etc/apt/sources.list

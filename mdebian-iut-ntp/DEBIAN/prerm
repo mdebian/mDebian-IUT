@@ -1,0 +1,10 @@
+#! /bin/sh
+
+# Halt on error
+set -e
+
+# Remove our configuration
+[ -L /etc/systemd/timesyncd.conf ] && ln -svf /etc/systemd/timesyncd.conf.mdebian /etc/systemd/timesyncd.conf
+
+# Restart the NTP client service
+systemctl restart systemd-timesyncd.service

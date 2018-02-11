@@ -1,0 +1,8 @@
+Package: mdebian-iut-banner
+Version: 1.0
+Section: admin
+Priority: optional
+Architecture: all
+Depends: mdebian-banner
+Maintainer: Michaël Roy <microygh@gmail.com>
+Description: Custom system banners for IUT

@@ -1,0 +1,8 @@
+Package: mdebian-iut-gnome
+Version: 1.0
+Section: admin
+Priority: optional
+Architecture: all
+Depends: dconf-cli
+Maintainer: Michaël Roy <microygh@gmail.com>
+Description: Custom Gnome configuration for IUT
