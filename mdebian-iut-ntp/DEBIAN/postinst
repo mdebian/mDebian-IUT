@@ -3,8 +3,8 @@
 # Halt on error
 set -e
 
-# Configure the NTP client in systemd
-[ -L /etc/systemd/timesyncd.conf ] && ln -sfv /etc/systemd/timesyncd.conf.mdebian-iut /etc/systemd/timesyncd.conf
+# Use the NTP servers
+timedatectl set-ntp true
 
 # Restart the NTP client service
 systemctl restart systemd-timesyncd.service
