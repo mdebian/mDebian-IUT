@@ -1,8 +1,8 @@
-Package: mdebian-iut-gnome
+Package: mdebian-iut-base
 Version: 9.0
 Section: admin
 Priority: optional
 Architecture: all
-Depends: mdebian-gnome
+Depends: mdebian-base, cntlm
 Maintainer: Michaël Roy <microygh@gmail.com>
-Description: Custom Gnome configuration for IUT
+Description: Custom Debian configuration for IUT

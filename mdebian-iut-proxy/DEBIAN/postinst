@@ -1,8 +1,0 @@
-#! /bin/sh
-
-# Halt on error
-set -e
-
-# Disable the CNTLM service
-systemctl stop cntlm
-systemctl disable cntlm

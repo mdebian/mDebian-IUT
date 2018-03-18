@@ -3,11 +3,9 @@
 # Select the different configurations to install
 SELECT=$(whiptail --title "mdebian-iut" --checklist --separate-output \
 "Choose custom configurations for IUT :" 20 78 6 \
-"apt" "Configure apt" OFF \
-"banner" "Configure banners" ON \
-"gnome" "Configure Gnome" ON \
-"ntp" "Configure ntp" OFF \
-"proxy" "Configure the proxy" ON \
+"base" "Configure banners and proxy" ON \
+"gnome" "Configure Gnome" OFF \
+"local" "Configure APT and NTP" OFF \
 3>&1 1>&2 2>&3)
 
 # No option selected or canceled

@@ -1,8 +1,0 @@
-Package: mdebian-iut-ntp
-Version: 1.1
-Section: admin
-Priority: optional
-Architecture: all
-Depends: systemd
-Maintainer: Michaël Roy <microygh@gmail.com>
-Description: Custom NTP configuration for IUT

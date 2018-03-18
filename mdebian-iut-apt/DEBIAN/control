@@ -1,8 +1,0 @@
-Package: mdebian-iut-apt
-Version: 1.0
-Section: admin
-Priority: optional
-Architecture: all
-Depends: mdebian-apt
-Maintainer: Michaël Roy <microygh@gmail.com>
-Description: Custom apt configuration for IUT

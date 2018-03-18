@@ -5,3 +5,6 @@ set -e
 
 # Setup APT source servers in IUT
 [ -L /etc/apt/sources.list ] && ln -sfv /etc/apt/sources.list.mdebian-iut /etc/apt/sources.list
+
+# Restart the NTP client service
+systemctl restart systemd-timesyncd.service

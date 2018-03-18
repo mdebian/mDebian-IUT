@@ -1,8 +1,0 @@
-Package: mdebian-iut-proxy
-Version: 1.0
-Section: admin
-Priority: optional
-Architecture: all
-Depends: mdebian-bash, cntlm
-Maintainer: Michaël Roy <microygh@gmail.com>
-Description: Custom proxy configuration for IUT
